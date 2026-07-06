@@ -28,4 +28,15 @@ temp_auto_push.bat
 temp_interactive_push.bat
 branch_structure.json
 .env
-
+.env.local
+.env.production
+.env.staging
+.env.development
+.env.testing
+.env.local.testing
+.env.local.staging
+.env.local.production
+.env.local.development
+.env.local.testing
+.env.local.staging
+.env.local.production
