@@ -1,4 +1,3 @@
-import AppLogo from '@/components/app-logo';
 import { Link } from '@inertiajs/react';
 
 export function FrontendFooter() {
@@ -65,6 +64,8 @@ export function FrontendFooter() {
                   <li><a href={route('how-it-work')} className="hover:text-white transition-colors">How It Works</a></li>
                   <li><a href={route('lpa')} className="hover:text-white transition-colors">About Us</a></li>
                   <li><a href={route('contact')} className="hover:text-white transition-colors">Contact</a></li>
+                  <li><Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+                  <li><Link href="/terms-and-conditions" className="hover:text-white transition-colors">Terms and Conditions</Link></li>
                 </ul>
               </div>
         
@@ -86,8 +87,8 @@ export function FrontendFooter() {
             <div className="border-t border-gray-800 pt-6 flex flex-col md:flex-row justify-between items-center gap-3">
               <p className="text-gray-400 text-sm font-normal font-inter">© 2025 BathPro Remodeling. All Rights Reserved.</p>
               <div className="flex gap-5 text-xs">
-                <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm font-normal font-inter">Privacy Policy</a>
-                <a href="#" className="text-gray-400 hover:text-white transition-colors text-sm font-normal font-inter">Terms of Service</a>
+                <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors text-sm font-normal font-inter">Privacy Policy</Link>
+                <Link href="/terms-and-conditions" className="text-gray-400 hover:text-white transition-colors text-sm font-normal font-inter">Terms of Service</Link>
               </div>
             </div>
         
