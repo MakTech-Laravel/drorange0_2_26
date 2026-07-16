@@ -5,70 +5,85 @@ import FrontendLayout from '@/layouts/frontend-layout';
 
 const termsSections = [
     {
-        title: '1. Introduction',
+        title: 'Acceptable use',
         copy: [
-            'These Terms and Conditions govern your use of the Will Writing Online website, applications, and services. By ordering a will, LPA, or related service you agree to these terms in full. If you do not agree, please stop using the service immediately.',
-            'Our estate-planning experience is delivered entirely online—consultations, questionnaires, document reviews, and approvals are completed through our secure digital platform.',
-            'Will Writing Online is registered in England & Wales #15576136 with its principal office at Nightingale House, 46/48 East Street, Epsom, Surrey, KT17 1HQ.'
-        ]
+            'You agree to use this website only for lawful purposes and in a way that does not infringe on the rights of others, interfere with site operations, or violate any applicable laws. Prohibited behavior includes attempting to damage the site, interfere with security, transmit malicious code, or misuse website content.',
+        ],
     },
     {
-        title: '2. Our services',
+        title: 'Intellectual property',
         copy: [
-            'We provide templated and bespoke Will and Lasting Power of Attorney services for individuals located in England and Wales. We do not provide advice for Scotland, Northern Ireland, or jurisdictions outside the UK.',
-            'All documents are prepared based on the information you provide. We will not be responsible for errors or omissions arising from inaccurate or incomplete instructions.'
-        ]
+            'Unless otherwise stated, all content on this website, including text, graphics, branding, logos, layout, and other materials, is owned by Rely Services Tampa or used with permission and is protected by applicable intellectual property laws. You may view and use the website for personal or business informational purposes only, but you may not copy, reproduce, republish, or distribute website content without prior written permission.',
+        ],
     },
     {
-        title: '3. Eligibility',
+        title: 'User submissions',
         copy: [
-            'To use our service you must be at least 18 years old, have mental capacity, and be a resident of England or Wales. You confirm that any person you are creating documents for also meets these requirements.'
-        ]
+            'If you submit information through forms or other website features, you agree that the information you provide is accurate and does not violate any law or third-party rights. You also grant us the right to use that information as necessary to respond to your request, provide services, or operate the website.',
+        ],
     },
     {
-        title: '4. Fees & payment',
+        title: 'Disclaimer of warranties',
         copy: [
-            'Prices are displayed before checkout and include VAT unless stated otherwise. Payment is taken at the point you approve your draft documents. Any Office of the Public Guardian registration fees are payable separately when lodging LPAs.'
-        ]
+            'This website is provided on an “as is” and “as available” basis. We do not guarantee that the website will always be available, error-free, secure, or uninterrupted, and we make no warranties regarding the accuracy or completeness of the website content.',
+        ],
     },
     {
-        title: '5. Intellectual property',
+        title: 'Limitation of liability',
         copy: [
-            'All software, templates, and written content provided through our platform remain the property of Will Writing Online. You may only use generated documents for your personal estate planning and must not resell, copy, or distribute them commercially.'
-        ]
+            'To the fullest extent permitted by law, Rely Services Tampa will not be liable for any indirect, incidental, special, or consequential damages arising out of or related to your use of this website. This includes loss of data, loss of business, loss of profits, or inability to use the website.',
+        ],
     },
     {
-        title: '6. Limitation of liability',
+        title: 'Third-party links',
         copy: [
-            'We are not liable for any indirect, consequential, or incidental loss. Our total liability for any claim arising out of our services shall not exceed the amount paid for the service in question, except where liability cannot be limited under UK law.'
-        ]
+            'This website may contain links to third-party websites for convenience or reference. We are not responsible for the content, policies, or practices of any third-party websites.',
+        ],
     },
     {
-        title: '7. Cancellation & refunds',
+        title: 'Access and availability',
         copy: [
-            'You may cancel within 14 days of purchase if we have not begun drafting your documents and receive a full refund. Once drafting work has started, refunds will reflect the time already spent by our legal team.'
-        ]
+            'We reserve the right to restrict, suspend, or terminate access to the website at any time without notice if we believe these Terms have been violated or the website is being used improperly. We may also change, suspend, or discontinue any part of the website at any time.',
+        ],
     },
     {
-        title: '8. Changes to these terms',
+        title: 'Governing law',
         copy: [
-            'We may update these terms to reflect changes in legislation or our services. The latest version will always be published on this page and will take effect immediately for new orders.'
-        ]
-    }
+            'These Terms and Conditions are governed by the laws of the State of Florida. Any disputes related to the website will be handled in the appropriate courts located in Florida.',
+        ],
+    },
+    {
+        title: 'Changes to these terms',
+        copy: [
+            'We may update these Terms and Conditions from time to time by posting a revised version on this page. Continued use of the website after changes are posted means you accept the revised Terms.',
+        ],
+    },
+    {
+        title: 'Contact us',
+        copy: [
+            'If you have questions about these Terms and Conditions, please contact:',
+            'Rely Services Tampa',
+            'support@relyservicestampa.com',
+            '8134373776',
+        ],
+    },
 ];
 
 export default function TermsAndConditions() {
     return (
         <FrontendLayout>
-            <Head title="Terms & Conditions | Will Writing Online" />
+            <Head title="Terms & Conditions | Rely Services Tampa" />
             <main className="bg-white py-14 sm:py-16">
                 <section className="container mx-auto px-4 sm:px-6">
                     <div className="max-w-4xl mx-auto">
                         <div className="mb-10 sm:mb-12 text-center">
                             <p className="text-xs sm:text-sm uppercase tracking-[0.4em] text-primary-400">Terms & Conditions</p>
-                            <h1 className="mt-4 text-3xl sm:text-4xl font-serif font-semibold text-primary-900">Clear, plain-language terms for every client</h1>
+                            <h1 className="mt-4 text-3xl sm:text-4xl font-serif font-semibold text-primary-900">Terms and Conditions</h1>
+                            <p className="mt-3 text-sm sm:text-base text-primary-700">Effective Date: July 15, 2026</p>
                             <p className="mt-4 text-sm sm:text-base text-primary-700">
-                                Please read these terms carefully before ordering a Will, LPA, or related service from Will Writing Online.
+                                Welcome to the website of Rely Services Tampa. By accessing or using this website, you agree
+                                to be bound by these Terms and Conditions. If you do not agree with these Terms, you should
+                                not use the website.
                             </p>
                         </div>
                         <div className="space-y-8 sm:space-y-10">
