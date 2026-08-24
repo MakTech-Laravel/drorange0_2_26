@@ -80,8 +80,7 @@ export function TeamSection({options, whychooses}: any) {
           <h2 className="font-sf-pro font-semibold text-gray-900 text-3xl md:text-4xl xl:text-5xl mb-2">Ready to Start Your Bathroom
             Remodel?</h2>
           <p className="mx-auto mt-3 max-w-2xl text-gray-500 font-inter font-normal text-xl mb-16">
-            Get a free estimate in 24 hours. Simply upload photos, select your options, and receive a detailed quote via
-            text message.
+          Whether you are considering a complete bathroom remodel, a tub-to-shower conversion, accessibility changes, or a more focused update, tell us what you are working with.
           </p>
           <Link href={route('free-estimate')} className="btn-blue-2 mb-8 inline-flex items-center gap-2 justify-center">
             Request Free Estimate

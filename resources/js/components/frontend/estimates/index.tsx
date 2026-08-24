@@ -65,10 +65,10 @@ export default function Index({ formData, updateFormData, nextStep }: IndexProps
                         </svg>
                     </div>
                     <h1 className="lg:text-5xl text-3xl font-semibold text-gray-900 mb-2 font-sf-pro">
-                        Track Your Order
+                    Check Your Project Status
                     </h1>
-                    <p className="text-gray-500 text-2xl font-normal font-inter text-center">
-                        Enter your order ID and contact information to view your project status
+                    <p className="text-gray-500 text-2xl w-2/3 font-normal font-inter text-center">
+                    Rely Services Tampa keeps you informed as your bathroom remodel moves from planning through completion.
                     </p>
                 </div>
                 {/* Form Card */}

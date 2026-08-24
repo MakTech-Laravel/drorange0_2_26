@@ -22,7 +22,7 @@ export function WhyCreateWillCardsGrid({ services }: any) {
                 <div className= "max-w-7xl mx-auto px-4 sm:px-8 py-10 lg:py-20 bg-gray-50">
                     <div className="mb-12 text-center">
                         <h2 className="font-sf-pro font-semibold text-gray-900 text-3xl md:text-4xl xl:text-5xl">
-                            Our Services
+                        Bathroom Remodeling Services in Tampa Bay
                         </h2>
                         <p className="mx-auto mt-3 max-w-xl text-gray-500 font-inter font-normal text-xl">
                             From complete renovations to targeted upgrades, we
@@ -33,10 +33,11 @@ export function WhyCreateWillCardsGrid({ services }: any) {
                         {services.map((service: any, index: any) => (
                             <div className="service-card bg-white">
                                 <div className="service-icon">
-                                    <img
+                                  {service.icon_url && <img
                                         src={service.icon_url}
                                         alt={service.title}
                                     />
+                                    }
                                 </div>
                                 <h3 className="mb-2 text-gray-900 font-inter font-normal text-xl">
                                     {service.title}

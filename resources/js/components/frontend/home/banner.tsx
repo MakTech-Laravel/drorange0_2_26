@@ -37,6 +37,8 @@ export default function Banner({banner}: any) {
                  {banner?.button1_text}
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"/></svg>
                 </Link>
+
+                
                 <Link href={secondaryUrl} className="btn-outline-white inline-flex items-center justify-center gap-2 w-full sm:w-auto font-inter font-bold text-xl">
                   {banner?.button2_text}
                 </Link>
@@ -45,11 +47,11 @@ export default function Banner({banner}: any) {
                 
                   <CircleCheckBig className="w-6 h-6 text-white" />
                 
-                <span className="flex items-center gap-1.5 text-base font-inter font-normal text-white">Licensed &amp; Insured</span>
+                <span className="flex items-center gap-1.5 text-base font-inter font-normal text-white">State Certified</span>
                 <CircleCheckBig className="w-6 h-6 text-white" />
-                <span className="flex items-center gap-1.5 text-base font-inter font-normal text-white">Free Estimates</span>
+                <span className="flex items-center gap-1.5 text-base font-inter font-normal text-white">Locally Owned</span>
                 <CircleCheckBig className="w-6 h-6 text-white" />
-                <span className="flex items-center gap-1.5 text-base font-inter font-normal text-white">Quick Turnaround</span>
+                <span className="flex items-center gap-1.5 text-base font-inter font-normal text-white">Built on Experience</span>
               </div>
 
               {/* {banner?.aditional_information ? (

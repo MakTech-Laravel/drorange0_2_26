@@ -14,9 +14,8 @@ export function LpaSupportSection() {
         <section
             className="max-w-7xl mx-auto bg-gradient-to-br from-blue-700 via-blue-600 to-blue-800 text-white text-center py-16 px-4 sm:px-8">
             <div className="max-w-xl mx-auto">
-                <h2 className="text-2xl sm:text-[32px] font-bold font-inter  text-white">Ready to Work With Us?</h2>
-                <p className="text-blue-100 mb-8 font-inter font-normal text-xl">Join hundreds of satisfied homeowners who have transformed their bathrooms with
-                    BathPro Remodeling.</p>
+                <h2 className="text-2xl sm:text-[32px] font-bold font-inter  text-white">Let's Talk About Your Project</h2>
+                <p className="text-blue-100 mb-8 font-inter font-normal text-xl">Whether you are planning a bathroom remodel, considering a tub-to-shower conversion, or still figuring out what your space needs, start with a conversation.</p>
                 <div className="flex flex-col sm:flex-row gap-3 justify-center">
                     <Link href={route('free-estimate')}
                         className="bg-white text-blue-700 font-inter font-bold px-7 py-3 rounded-xl hover:bg-blue-50 transition-colors text-sm shadow-lg">Get
