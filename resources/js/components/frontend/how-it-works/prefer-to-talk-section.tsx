@@ -58,11 +58,10 @@ export function PreferToTalkSection({ faqs }: any) {
             <section className="bg-blue-600 lg:py-16 py-8 text-white text-center max-w-7xl mx-auto px-8">
                 <div className="">
                     <h2 className="text-3xl md:text-4xl xl:text-5xl font-inter font-bold text-white mb-3">
-                        Ready to Get Started?
+                    Have a Bathroom in Mind? Let's Talk About It.
                     </h2>
                     <p className="text-white/80 text-xl font-normal text-gray-500 font-inter leading-relaxed mb-8">
-                        Request your free estimate now and receive your detailed quote within 24
-                        hours.
+                    Tell us what you'd like to change, and we'll start with the space you have.
                     </p>
                     <Link href={route('free-estimate')} className="btn-white">
                         Start Your Bathroom Remodel

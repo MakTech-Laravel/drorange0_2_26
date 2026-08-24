@@ -8,6 +8,9 @@ import { WhyCreateWillCardsGrid } from '@/components/frontend/home/why-create-wi
 import { WhyCreateWillSection } from '@/components/frontend/home/why-create-will-section';
 import FrontendLayout from '@/layouts/frontend-layout';
 import { Head, usePage } from '@inertiajs/react';
+import { AditionalInfoBox } from '@/components/frontend/home/aditionalinfobox';
+import { AnotherAditionalInfoBox } from '../../components/frontend/home/anotheraditionalinfobox';
+import { AditionalInfoLastBox } from '../../components/frontend/home/aditionalinfolastbox';
 
 export default function Home({banner, services}: any) {
    const {props} = usePage();
@@ -17,8 +20,11 @@ export default function Home({banner, services}: any) {
             <Head title={siteSetting?.site_title} />
             <Banner banner={banner} />
             <WhyCreateWillSection />
+            <AditionalInfoBox />
+            <AnotherAditionalInfoBox />
             <WhyCreateWillCardsGrid services={services} />
             <HowItWorksSection />
+            <AditionalInfoLastBox />
             <EstateApproachSection />
              <FindingSupportSection />
           
