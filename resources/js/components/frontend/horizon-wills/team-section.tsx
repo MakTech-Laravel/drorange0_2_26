@@ -27,8 +27,8 @@ export function TeamSection({options, whychooses}: any) {
         <section className="lg:py-20 py-8 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="font-sf-pro font-semibold text-gray-900 text-3xl md:text-4xl xl:text-5xl">Remodeling Options</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-gray-500 font-inter font-normal text-xl mb-16">From minor updates to complete transformations, we handle it all.</p>
+            <h2 className="font-sf-pro font-semibold text-gray-900 text-3xl md:text-4xl xl:text-5xl">Remodeling Different Types of Bathrooms</h2>
+            {/* <p className="mx-auto mt-3 max-w-2xl text-gray-500 font-inter font-normal text-xl mb-16">From minor updates to complete transformations, we handle it all.</p> */}
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
     
